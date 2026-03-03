@@ -64,7 +64,7 @@ export default function DashboardLayout({ children }: { children: React.ReactNod
                 </SidebarMenuButton>
               </SidebarMenuItem>
               <SidebarMenuItem>
-                <SidebarMenuButton asChild tooltip="Children Profiles">
+                <SidebarMenuButton asChild tooltip="Children">
                   <Link to="/dashboard" className="flex items-center gap-3 p-3 rounded-md hover:bg-accent hover:text-accent-foreground transition-all">
                     <Baby className="h-5 w-5" />
                     <span className="font-medium">My Children</span>
